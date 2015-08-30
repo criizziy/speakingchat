@@ -14,6 +14,10 @@
             android:name=".inicio"
             android:label="@string/title_activity_inicio" >
         </activity>
+        <activity
+            android:name=".registro"
+            android:label="@string/title_activity_registro" >
+        </activity>
     </application>
 
 </manifest>
