@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Iniciar secion"
+        android:text="Iniciar sesion"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
@@ -46,7 +46,7 @@
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:text="Entrar"
         android:id="@+id/btnEntrar"
         android:textSize="20dp"
@@ -81,5 +81,20 @@
         android:layout_above="@+id/txtUsuario"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Registrar"
+        android:id="@+id/button"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:background="#ff3737"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/btnEntrar"
+        android:layout_alignStart="@+id/btnEntrar"
+        android:layout_alignRight="@+id/btnEntrar"
+        android:layout_alignEnd="@+id/btnEntrar" />
 
 </RelativeLayout>
