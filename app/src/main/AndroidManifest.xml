@@ -16,7 +16,23 @@
         </activity>
         <activity
             android:name=".registro"
-            android:label="@string/title_activity_registro" >
+            android:label="                            Registro" >
+        </activity>
+        <activity
+            android:name=".ajustes"
+            android:label="                            Ajustes" >
+        </activity>
+        <activity
+            android:name=".AjustesCuenta"
+            android:label="@string/title_activity_ajustes_cuenta" >
+        </activity>
+        <activity
+            android:name=".ajustes_notificaciones"
+            android:label="@string/title_activity_ajustes_notificaciones" >
+        </activity>
+        <activity
+            android:name=".ajustes_ayuda"
+            android:label="@string/title_activity_ajustes_ayuda" >
         </activity>
     </application>
 

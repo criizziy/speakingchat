@@ -1,102 +1,143 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.example.criizziy.speakingchat.inicio"
     android:background="#ff4747">
 
-    <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="60dp"
-        android:background="#ffffff"
-        android:layout_alignParentTop="true"
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout16"
+        android:layout_below="@+id/linearLayout15"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/relativeLayout">
+        android:layout_alignParentStart="true">
 
-        <ImageButton
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:id="@+id/imageButton"
-            android:background="@drawable/usuario1"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Ozle anderson torres"
+            android:id="@+id/textView13"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:textIsSelectable="false"
+            android:gravity="center" />
 
         <EditText
-            android:layout_width="240dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/editText"
-            android:layout_alignParentBottom="true"
-            android:layout_toRightOf="@+id/imageButton" />
-
-        <ImageButton
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:id="@+id/imageButton2"
-            android:background="@drawable/activo"
-            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/txtEstado"
+            android:layout_marginTop="10dp"
+            android:text="¿Que estas pensando?"
+            android:textIsSelectable="false"
+            android:textColor="#7d7d74"
+            android:background="#fff"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_alignParentEnd="true"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:gravity="center" />
 
-    </RelativeLayout>
+    </LinearLayout>
 
-    <EditText
-        android:layout_width="250dp"
-        android:layout_height="40dp"
-        android:id="@+id/txtEstado"
-        android:layout_marginTop="24dp"
-        android:text="Que estas pensando ? ..."
-        android:textIsSelectable="false"
-        android:textColor="#7d7d74"
-        android:layout_below="@+id/relativeLayout"
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout15">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView4"
+            android:layout_alignParentTop="true"
+            android:src="@mipmap/avatar"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:cropToPadding="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_below="@+id/linearLayout16"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/relativeLayout"
-        android:layout_alignEnd="@+id/relativeLayout"
-        android:background="#fff" />
+        android:layout_marginTop="15dp">
 
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="20dp"
-        android:text="Actualizaciones de estado"
-        android:id="@+id/btnEstados"
-        android:layout_below="@+id/txtEstado"
-        android:layout_marginTop="87dp"
-        android:background="#fff"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/txtEstado"
-        android:layout_alignEnd="@+id/txtEstado" />
+        <Button
+            style="@style/Base.V7.Theme.AppCompat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACTUALIZACIONES DE ESTADO"
+            android:id="@+id/button"
+            android:background="#5797ff"
+            android:layout_above="@+id/imageButton2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="18dp" />
 
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="20dp"
-        android:text="chats (3)"
-        android:id="@+id/button"
-        android:background="#fff"
-        android:layout_centerVertical="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:text="Chats(10)"
+            android:id="@+id/button2"
+            android:layout_marginTop="20dp"
+            android:background="#fff"
+            android:layout_below="@+id/button"
+            android:layout_alignRight="@+id/button"
+            android:layout_alignEnd="@+id/button"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="0.05" />
 
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="20dp"
-        android:text="amigos (50)"
-        android:id="@+id/button2"
-        android:layout_marginTop="30dp"
-        android:background="#fff"
-        android:layout_below="@+id/button"
-        android:layout_alignRight="@+id/button"
-        android:layout_alignEnd="@+id/button"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:text="amigos (50)"
+            android:id="@+id/button10"
+            android:layout_marginTop="10dp"
+            android:background="#fff"
+            android:layout_below="@+id/button"
+            android:layout_alignRight="@+id/button"
+            android:layout_alignEnd="@+id/button"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:text="GRUPOS(2)"
+            android:id="@+id/button12"
+            android:layout_marginTop="10dp"
+            android:background="#fff"
+            android:layout_below="@+id/button"
+            android:layout_alignRight="@+id/button"
+            android:layout_alignEnd="@+id/button"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
 
 </RelativeLayout>
