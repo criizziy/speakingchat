@@ -1,9 +1,11 @@
 package com.example.criizziy.speakingchat;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class ajustes_ayuda extends AppCompatActivity {
 
@@ -11,6 +13,12 @@ public class ajustes_ayuda extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ajustes_ayuda);
+        findViewById(R.id.button13).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ajustes_ayuda.this, ajustes.class));
+            }
+        });
     }
 
     @Override

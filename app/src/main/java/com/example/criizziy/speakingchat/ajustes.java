@@ -25,6 +25,24 @@ public class ajustes extends AppCompatActivity {
                 startActivity(new Intent(ajustes.this, ajustes_ayuda.class));
             }
         });
+        findViewById(R.id.linearLayout2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ajustes.this, ajustes_notificaciones.class));
+            }
+        });
+        findViewById(R.id.linearLayout).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ajustes.this, AjustesCuenta.class));
+            }
+        });
+        findViewById(R.id.linearLayout3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ajustes.this, ajustes_ayuda.class));
+            }
+        });
     }
 
     @Override
