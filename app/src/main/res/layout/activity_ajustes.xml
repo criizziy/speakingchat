@@ -10,10 +10,11 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:id="@+id/linearLayout"
         android:baselineAligned="false"
-        android:background="#e4e4e4">
+        android:background="#e4e4e4"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_alignParentLeft="true">
 
         <TextView
             android:layout_width="288dp"
@@ -37,10 +38,10 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="15dp"
-        android:layout_below="@+id/linearLayout"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/linearLayout4"></LinearLayout>
+        android:id="@+id/linearLayout4"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentLeft="true"></LinearLayout>
 
     <LinearLayout
         android:orientation="vertical"
@@ -48,9 +49,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout2"
         android:background="#e4e4e4"
-        android:layout_below="@+id/linearLayout4"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout5"
+        android:layout_alignParentLeft="true">
 
         <TextView
             android:layout_width="288dp"
@@ -75,9 +76,8 @@
         android:layout_width="match_parent"
         android:layout_height="15dp"
         android:id="@+id/linearLayout5"
-        android:layout_below="@+id/linearLayout2"
-        android:layout_alignRight="@+id/linearLayout2"
-        android:layout_alignEnd="@+id/linearLayout2" />
+        android:layout_below="@+id/linearLayout3"
+        android:layout_alignParentLeft="true" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -85,9 +85,10 @@
         android:layout_height="wrap_content"
         android:background="#e4e4e4"
         android:id="@+id/linearLayout3"
-        android:layout_below="@+id/linearLayout5"
+        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="151dp">
 
         <TextView
             android:layout_width="288dp"
@@ -106,5 +107,15 @@
             android:layout_marginTop="-45dp"
             android:layout_marginLeft="20dp" />
     </LinearLayout>
+
+    <ImageView
+        android:layout_width="249dp"
+        android:layout_height="178dp"
+        android:id="@+id/imageView10"
+        android:src="@mipmap/logo6"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-20dp" />
 
 </RelativeLayout>

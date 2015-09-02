@@ -34,6 +34,10 @@
             android:name=".ajustes_ayuda"
             android:label="@string/title_activity_ajustes_ayuda" >
         </activity>
+        <activity
+            android:name=".bienvenida"
+            android:label="@string/title_activity_bienvenida" >
+        </activity>
     </application>
 
 </manifest>

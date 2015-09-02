@@ -21,19 +21,20 @@
         android:gravity="center" />
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:ems="10"
         android:id="@+id/txtPassword"
         android:textColor="#7d7d74"
         android:layout_below="@+id/textView3"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="60dp"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
         android:text="Entrar"
         android:id="@+id/btnEntrar"
         android:textSize="20dp"
@@ -41,22 +42,21 @@
         android:background="#ff3737"
         android:layout_below="@+id/txtPassword"
         android:layout_marginTop="55dp"
-        android:layout_alignLeft="@+id/txtPassword"
-        android:layout_alignStart="@+id/txtPassword"
-        android:layout_alignRight="@+id/txtPassword"
-        android:layout_alignEnd="@+id/txtPassword" />
+        android:layout_alignRight="@+id/btnRecordar"
+        android:layout_alignEnd="@+id/btnRecordar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txtUsuario"
         android:layout_above="@+id/textView3"
-        android:layout_alignRight="@+id/txtPassword"
-        android:layout_alignEnd="@+id/txtPassword"
-        android:layout_alignLeft="@+id/txtPassword"
-        android:layout_alignStart="@+id/txtPassword"
         android:inputType="text"
-        />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
 
     <TextView
         android:layout_width="fill_parent"
@@ -83,7 +83,7 @@
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:text="Registrarse"
         android:id="@+id/button11"
         android:textSize="20dp"

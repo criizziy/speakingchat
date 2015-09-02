@@ -19,6 +19,12 @@ public class ajustes extends AppCompatActivity {
                 startActivity(new Intent(ajustes.this, AjustesCuenta.class));
             }
         });
+        findViewById(R.id.textView5).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ajustes.this, ajustes_ayuda.class));
+            }
+        });
     }
 
     @Override
