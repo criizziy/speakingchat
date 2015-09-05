@@ -5,7 +5,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.example.criizziy.speakingchat.inicio"
-    android:background="#ff4747">
+    android:background="#fff">
 
     <LinearLayout
         android:orientation="vertical"
@@ -77,15 +77,15 @@
 
         <ImageView
             android:layout_width="200dp"
-            android:layout_height="96dp"
+            android:layout_height="66dp"
             android:id="@+id/imageView7"
             android:layout_alignParentTop="true"
-            android:src="@mipmap/logo6"
+            android:src="@mipmap/logonuevo"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:layout_above="@+id/textView2"
             android:layout_weight="2"
-            android:layout_marginTop="-80dp"
+            android:layout_marginTop="-60dp"
             android:layout_marginRight="-30dp" />
     </LinearLayout>
 
@@ -105,7 +105,7 @@
             android:layout_height="wrap_content"
             android:text="ACTUALIZACIONES DE ESTADO"
             android:id="@+id/button"
-            android:background="#5797ff"
+            android:background="#27a2ff"
             android:layout_above="@+id/imageButton2"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
@@ -121,13 +121,14 @@
             android:text="Chats(10)"
             android:id="@+id/button2"
             android:layout_marginTop="20dp"
-            android:background="#fff"
+            android:background="#a4a6a6"
             android:layout_below="@+id/button"
             android:layout_alignRight="@+id/button"
             android:layout_alignEnd="@+id/button"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_weight="0.05" />
+            android:layout_weight="0.05"
+            android:textColor="#fff" />
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -136,13 +137,14 @@
             android:text="amigos (50)"
             android:id="@+id/button10"
             android:layout_marginTop="10dp"
-            android:background="#fff"
+            android:background="#a4a6a6"
             android:layout_below="@+id/button"
             android:layout_alignRight="@+id/button"
             android:layout_alignEnd="@+id/button"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fff" />
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -151,13 +153,14 @@
             android:text="GRUPOS(2)"
             android:id="@+id/button12"
             android:layout_marginTop="10dp"
-            android:background="#fff"
+            android:background="#a4a6a6"
             android:layout_below="@+id/button"
             android:layout_alignRight="@+id/button"
             android:layout_alignEnd="@+id/button"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fff" />
 
 
     </LinearLayout>
