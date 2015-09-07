@@ -22,7 +22,7 @@
             android:layout_width="288dp"
             android:layout_height="wrap_content"
             android:text="Cuenta"
-            android:id="@+id/textView6"
+            android:id="@+id/btnACuenta"
             android:textSize="30dp"
             android:textColor="#1264a3"
             android:layout_marginLeft="80dp" />
@@ -59,7 +59,7 @@
             android:layout_width="288dp"
             android:layout_height="wrap_content"
             android:text="Notificaciones"
-            android:id="@+id/textView4"
+            android:id="@+id/btnANotificaciones"
             android:textSize="30dp"
             android:textColor="#1264a3"
             android:layout_marginLeft="80dp" />
@@ -96,7 +96,7 @@
             android:layout_width="288dp"
             android:layout_height="wrap_content"
             android:text="Ayuda"
-            android:id="@+id/textView5"
+            android:id="@+id/btnAAyuda"
             android:textSize="30dp"
             android:textColor="#1264a3"
             android:layout_marginLeft="80dp" />

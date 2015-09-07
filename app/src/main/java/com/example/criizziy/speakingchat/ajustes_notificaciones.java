@@ -13,18 +13,7 @@ public class ajustes_notificaciones extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ajustes_notificaciones);
-        findViewById(R.id.button8).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(ajustes_notificaciones.this, ajustes.class));
-            }
-        });
-        findViewById(R.id.button9).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(ajustes_notificaciones.this, ajustes.class));
-            }
-        });
+
     }
 
     @Override

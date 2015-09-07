@@ -13,12 +13,13 @@ public class inicio extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inicio);
-        findViewById(R.id.imageView12).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btnAjustes).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(inicio.this, ajustes.class));
             }
         });
+
     }
 
     @Override

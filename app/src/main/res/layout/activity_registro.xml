@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:ems="10"
-            android:id="@+id/editText5"
+            android:id="@+id/txtRNombre"
             android:layout_below="@+id/textContraseña"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
@@ -53,7 +53,9 @@
         <EditText
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/editText4"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/txtRContraseña"
             android:layout_below="@+id/textUusuario"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
@@ -63,7 +65,7 @@
             android:layout_height="wrap_content"
             android:text="Usuario"
             android:id="@+id/textUusuario"
-            android:layout_below="@+id/editText3"
+            android:layout_below="@+id/txtRUsuario"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:textSize="25dp"
@@ -72,7 +74,9 @@
         <EditText
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/editText3"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/txtRUsuario"
             android:layout_below="@+id/textEdad"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
@@ -82,7 +86,7 @@
             android:layout_height="wrap_content"
             android:text="Edad:"
             android:id="@+id/textEdad"
-            android:layout_below="@+id/editText2"
+            android:layout_below="@+id/txtREdad"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:textSize="25dp"
@@ -91,7 +95,9 @@
         <EditText
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/editText2"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/txtREdad"
             android:layout_below="@+id/textNombre"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
@@ -110,21 +116,21 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Registrarse"
-            android:id="@+id/button3"
+            android:id="@+id/btnResgristrar"
             android:background="#1264a3"
             android:textSize="20dp"
             android:textColor="#a4a6a6"
-            android:layout_above="@+id/button4"
+            android:layout_above="@+id/btnRCancelar"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_alignRight="@+id/button4"
-            android:layout_alignEnd="@+id/button4" />
+            android:layout_alignRight="@+id/btnRCancelar"
+            android:layout_alignEnd="@+id/btnRCancelar" />
 
         <Button
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Cancelar"
-            android:id="@+id/button4"
+            android:id="@+id/btnRCancelar"
             android:background="#6bf8ff"
             android:textColor="#a4a6a6"
             android:textSize="20dp"

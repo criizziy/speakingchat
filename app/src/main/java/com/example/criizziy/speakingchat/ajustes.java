@@ -13,36 +13,25 @@ public class ajustes extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ajustes);
-        findViewById(R.id.textView6).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btnACuenta).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(ajustes.this, AjustesCuenta.class));
             }
         });
-        findViewById(R.id.textView5).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(ajustes.this, ajustes_ayuda.class));
-            }
-        });
-        findViewById(R.id.linearLayout2).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btnANotificaciones).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(ajustes.this, ajustes_notificaciones.class));
             }
         });
-        findViewById(R.id.linearLayout).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(ajustes.this, AjustesCuenta.class));
-            }
-        });
-        findViewById(R.id.linearLayout3).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btnAAyuda).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(ajustes.this, ajustes_ayuda.class));
             }
         });
+
     }
 
     @Override

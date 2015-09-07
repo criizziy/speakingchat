@@ -85,7 +85,7 @@
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:text="Registrarse"
-        android:id="@+id/button11"
+        android:id="@+id/btnRegistrarse"
         android:textSize="20dp"
         android:textColor="#a4a6a6"
         android:background="#6bf8ff"

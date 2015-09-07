@@ -93,7 +93,7 @@
             android:layout_width="163dp"
             android:layout_height="wrap_content"
             android:text="Cancelar"
-            android:id="@+id/button6"
+            android:id="@+id/btnCancelarACuenta"
             android:layout_gravity="right"
             android:background="#6bf8ff"
             android:textColor="#a4a6a6" />
@@ -102,7 +102,7 @@
             android:layout_width="164dp"
             android:layout_height="wrap_content"
             android:text="Guardar"
-            android:id="@+id/button5"
+            android:id="@+id/btnGuardarACuenta"
             android:layout_marginTop="-49dp"
             android:background="#27a2ff"
             android:textColor="#FFF" />
@@ -122,7 +122,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Cerrar sesión"
-            android:id="@+id/button7"
+            android:id="@+id/btnLogOut"
             android:layout_gravity="center_horizontal"
             android:background="#27a2ff"
             android:textColor="#fff" />

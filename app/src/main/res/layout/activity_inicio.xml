@@ -13,20 +13,18 @@
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout16"
         android:layout_below="@+id/linearLayout15"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="44dp">
 
-        <EditText
-            android:layout_width="match_parent"
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/editText"
+            android:text="Ozle anderson"
+            android:id="@+id/lblNombreUsuario"
             android:layout_gravity="center_horizontal"
-            android:text="Ozle anderson torres"
-            android:textColor="#fff"
-            android:textSize="25dp"
-            android:textStyle="bold"
-            android:gravity="center_vertical|center"
-            android:typeface="normal" />
+            android:textColor="#000"
+            android:textSize="20dp" />
 
         <EditText
             android:layout_width="match_parent"
@@ -58,7 +56,7 @@
         <ImageView
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:id="@+id/imageView4"
+            android:id="@+id/imgPerfil"
             android:layout_alignParentTop="true"
             android:src="@mipmap/avatar"
             android:layout_alignParentRight="true"
@@ -70,7 +68,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/imageView12"
+            android:id="@+id/btnAjustes"
             android:layout_gravity="right"
             android:src="@mipmap/ajustes"
             android:layout_marginTop="-45dp" />
@@ -95,16 +93,16 @@
         android:layout_height="match_parent"
         android:weightSum="1"
         android:layout_below="@+id/linearLayout16"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="15dp">
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="92dp">
 
         <Button
             style="@style/Base.V7.Theme.AppCompat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="ACTUALIZACIONES DE ESTADO"
-            android:id="@+id/button"
+            android:id="@+id/btnEstados"
             android:background="#27a2ff"
             android:layout_above="@+id/imageButton2"
             android:layout_alignParentLeft="true"
@@ -119,12 +117,12 @@
             android:layout_width="fill_parent"
             android:layout_height="20dp"
             android:text="Chats(10)"
-            android:id="@+id/button2"
+            android:id="@+id/btnChats"
             android:layout_marginTop="20dp"
             android:background="#a4a6a6"
-            android:layout_below="@+id/button"
-            android:layout_alignRight="@+id/button"
-            android:layout_alignEnd="@+id/button"
+            android:layout_below="@+id/btnEstados"
+            android:layout_alignRight="@+id/btnEstados"
+            android:layout_alignEnd="@+id/btnEstados"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_weight="0.05"
@@ -135,12 +133,12 @@
             android:layout_width="fill_parent"
             android:layout_height="30dp"
             android:text="amigos (50)"
-            android:id="@+id/button10"
+            android:id="@+id/btnAmigos"
             android:layout_marginTop="10dp"
             android:background="#a4a6a6"
-            android:layout_below="@+id/button"
-            android:layout_alignRight="@+id/button"
-            android:layout_alignEnd="@+id/button"
+            android:layout_below="@+id/btnEstados"
+            android:layout_alignRight="@+id/btnEstados"
+            android:layout_alignEnd="@+id/btnEstados"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_gravity="center_horizontal"
@@ -151,18 +149,16 @@
             android:layout_width="fill_parent"
             android:layout_height="30dp"
             android:text="GRUPOS(2)"
-            android:id="@+id/button12"
+            android:id="@+id/btnGrupos"
             android:layout_marginTop="10dp"
             android:background="#a4a6a6"
-            android:layout_below="@+id/button"
-            android:layout_alignRight="@+id/button"
-            android:layout_alignEnd="@+id/button"
+            android:layout_below="@+id/btnEstados"
+            android:layout_alignRight="@+id/btnEstados"
+            android:layout_alignEnd="@+id/btnEstados"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_gravity="center_horizontal"
             android:textColor="#fff" />
-
-
     </LinearLayout>
 
 </RelativeLayout>

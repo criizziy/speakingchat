@@ -37,7 +37,7 @@
         <CheckBox
             android:layout_width="65dp"
             android:layout_height="wrap_content"
-            android:id="@+id/checkBox"
+            android:id="@+id/checkSonidoNotificaciones"
             android:layout_gravity="right"
             android:checked="false"
             android:layout_weight="0.38"
@@ -64,7 +64,7 @@
         <CheckBox
             android:layout_width="65dp"
             android:layout_height="wrap_content"
-            android:id="@+id/checkBox2"
+            android:id="@+id/checkVibracionNotificaciones"
             android:layout_gravity="right"
             android:checked="false"
             android:layout_weight="0.38"
@@ -93,7 +93,7 @@
         <CheckBox
             android:layout_width="65dp"
             android:layout_height="wrap_content"
-            android:id="@+id/checkBox3"
+            android:id="@+id/checkLedNotificaciones"
             android:layout_gravity="right"
             android:checked="false"
             android:layout_weight="0.38"
@@ -120,7 +120,7 @@
                 android:layout_width="163dp"
                 android:layout_height="wrap_content"
                 android:text="Cancelar"
-                android:id="@+id/button8"
+                android:id="@+id/btnCancelarANotificaciones"
                 android:layout_gravity="right"
                 android:background="#6bf8ff"
                 android:textColor="#a4a6a6" />
@@ -129,7 +129,7 @@
                 android:layout_width="164dp"
                 android:layout_height="wrap_content"
                 android:text="Guardar"
-                android:id="@+id/button9"
+                android:id="@+id/btnGuardarANotificaciones"
                 android:layout_marginTop="-49dp"
                 android:background="#27a2ff"
                 android:textColor="#fff" />
