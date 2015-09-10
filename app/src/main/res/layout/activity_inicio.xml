@@ -54,7 +54,7 @@
         android:weightSum="1">
 
         <ImageView
-            android:layout_width="fill_parent"
+            android:layout_width="70dp"
             android:layout_height="fill_parent"
             android:id="@+id/imgPerfil"
             android:layout_alignParentTop="true"
@@ -66,7 +66,7 @@
             android:layout_marginLeft="150dp" />
 
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:id="@+id/btnAjustes"
             android:layout_gravity="right"
@@ -74,7 +74,7 @@
             android:layout_marginTop="-45dp" />
 
         <ImageView
-            android:layout_width="200dp"
+            android:layout_width="170dp"
             android:layout_height="66dp"
             android:id="@+id/imageView7"
             android:layout_alignParentTop="true"
@@ -84,18 +84,18 @@
             android:layout_above="@+id/textView2"
             android:layout_weight="2"
             android:layout_marginTop="-60dp"
-            android:layout_marginRight="-30dp" />
+            android:layout_marginRight="-30dp"
+            android:layout_marginLeft="-20dp" />
     </LinearLayout>
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:weightSum="1"
         android:layout_below="@+id/linearLayout16"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="92dp">
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <Button
             style="@style/Base.V7.Theme.AppCompat"
@@ -115,7 +115,7 @@
         <Button
             style="?android:attr/buttonStyleSmall"
             android:layout_width="fill_parent"
-            android:layout_height="20dp"
+            android:layout_height="30dp"
             android:text="Chats(10)"
             android:id="@+id/btnChats"
             android:layout_marginTop="20dp"
